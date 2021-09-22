@@ -23,3 +23,9 @@ To change file permissions to file creator only:
 ```
 chmod 600 filename
 ```
+
+filefetcher:
+
+```
+python3 filefetcher/fetch.py --xrootd root://xcache/ --input HHWWgg_dataset.txt --dbs-instance prod/global
+```
